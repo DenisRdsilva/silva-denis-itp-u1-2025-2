@@ -7,20 +7,20 @@ int main()
     char tipoConsumidor;
 
     printf("Digite o consumo de energia em kWh: ");
-    scanf("%d", &consumo);
+    scanf("%f", &consumo);
 
     printf("Digite o tipo de consumidor: ");
-    scanf("%c", &tipoConsumidor);
+    scanf(" %c", &tipoConsumidor);
 
-    if (tipoConsumidor == "R") {
+    if (tipoConsumidor == 'R') {
         float taxaResidencial = 15 + 0.6*consumo;
-        printf("Total: %.2f", taxaResidencial);
-    } else if (tipoConsumidor == "C") {
+        printf("Total: R$ %.2f\n", taxaResidencial);
+    } else if (tipoConsumidor == 'C') {
         float taxaComercial = 15 + 0.48*consumo;
-        printf("Total: %.2f", taxaComercial);
-    } else if (tipoConsumidor == "I") {
+        printf("Total: R$ %.2f\n", taxaComercial);
+    } else if (tipoConsumidor == 'I') {
         float taxaIndustrial = 15 + 1.29*consumo;
-        printf("Total: %.2f", taxaIndustrial);
+        printf("Total: R$ %.2f\n", taxaIndustrial);
     }
 
     return 0;
