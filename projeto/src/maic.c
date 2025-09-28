@@ -4,9 +4,11 @@ int escolherOperacao() { // função que escolhe a operação a ser feita com as
     int operacao;
 
     do { // Só prossegue se o usuário escolher uma opção válida
-        printf("Escolha a operação:\n1 - Soma\n2 - Subtração\n3 - Multiplicação\n");
+        printf("Escolha a operação:\n1 - Soma\n2 - Subtração\n");
+        // printf("Escolha a operação:\n1 - Soma\n2 - Subtração\n3 - Multiplicação\n");
         scanf("%d", &operacao);
-    } while (operacao < 1 || operacao > 3);
+    } while (operacao < 1 || operacao > 2);
+    // } while (operacao < 1 || operacao > 3);
 
     return operacao;
 }
@@ -15,9 +17,9 @@ int inserirLinhasOuColunas(int tipo) { // função que insere o número de linha
     int numero;
 
     if (tipo) {
-        printf("Insira o número de colunas da matriz: ");
+        printf("Insira o número de colunas das matrizes: ");
     } else {
-        printf("Insira o número de linhas da matriz: ");
+        printf("Insira o número de linhas da matrizes: ");
     }
 
     scanf("%d", &numero);
@@ -68,7 +70,13 @@ int main(){
                 } else if (operacao == 2) {
                     resultado[i][j] = matriz1[i][j] - matriz2[i][j]; // subtrai os elementos das matrizes
                 // } else {
-                //     resultado[i][j] = matriz1[i][j] * matriz2[i][j]; // multiplica os elementos das matrizes
+                //     if (i == j) { // multiplica os elementos das matrizes
+                //         resultado[i][j] = (matriz1[i][j]*matriz2[i][j]) + (matriz1[i][j+1]*matriz2[i+1][j]);
+                //     } else if (i < j) {
+                //         resultado[i][j] = (matriz1[i][j]*matriz2[i][j+1]) + (matriz1[i][j+1]*matriz2[i+1][j+1]);
+                //     } else if (i > j) {
+                //         resultado[i][j] = (matriz1[i+1][j]*matriz2[i+1][j]) + (matriz1[i+1][j+1]*matriz2[i+1][j+1]);
+                //     }
                 }
             }
         }
