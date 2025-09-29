@@ -1,0 +1,7 @@
+Para na entrada n = 5, o código irá retornar: 
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
