@@ -1,7 +1,8 @@
 # Introdução a Técnicas de Programação - Unidade 1
- **Aluno**: Dênis Rocha da Silva 
-**Matrícula**: 20250052862
-**Período**: 2025.2 
+
+**Aluno**: Dênis Rocha da Silva  
+**Matrícula**: 20250052862  
+**Período**: 2025.2
 
 ## 📂 Estrutura do Projeto
  - `projeto/`: Projeto principal da unidade 
@@ -12,7 +13,7 @@
 
 **Descrição**: Recebe matrizes como entrada e realiza a operação escolhida pelo usuário
 
-**Repositório**: [\[Link para repositório público\]](https://github.com/DenisRdsilva/silva-denis-itp-u1-2025-2)
+**Repositório**: \Link para repositório público\(https://github.com/DenisRdsilva/silva-denis-itp-u1-2025-2)
 
 **Vídeo de Demonstração**: [Link para o vídeo] 
 
