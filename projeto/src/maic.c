@@ -19,7 +19,7 @@ int inserirLinhasOuColunas(int tipo) { // função que insere o número de linha
     if (tipo) {
         printf("Insira o número de colunas das matrizes: ");
     } else {
-        printf("Insira o número de linhas da matrizes: ");
+        printf("Insira o número de linhas das matrizes: ");
     }
 
     scanf("%d", &numero);
