@@ -15,7 +15,7 @@
 
 **Repositório**: https://github.com/DenisRdsilva/silva-denis-itp-u1-2025-2
 
-**Vídeo de Demonstração**: [Link para o vídeo] 
+**Vídeo de Demonstração**: https://youtu.be/wvAlzBxETu4
 
 ### Funcionalidades Implementadas:
 - Solicita que o usuário escolha a operação, atualmente estão disponíveis apenas soma e subtração;
